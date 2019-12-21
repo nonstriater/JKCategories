@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2591FAFE23AE49F000C8E990 /* UIView+JKIB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2591FAFC23AE49F000C8E990 /* UIView+JKIB.h */; };
+		2591FAFF23AE49F000C8E990 /* UIView+JKIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2591FAFD23AE49F000C8E990 /* UIView+JKIB.m */; };
 		A202D9801B0F7CD100EAB199 /* CLLocationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D97E1B0F7CD100EAB199 /* CLLocationDemoViewController.m */; };
 		A202D9811B0F7CD100EAB199 /* CLLocationDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A202D97F1B0F7CD100EAB199 /* CLLocationDemoViewController.xib */; };
 		A202D98C1B0F7D7900EAB199 /* MKMapViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D98A1B0F7D7900EAB199 /* MKMapViewDemoViewController.m */; };
@@ -618,6 +620,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2591FAFC23AE49F000C8E990 /* UIView+JKIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JKIB.h"; sourceTree = "<group>"; };
+		2591FAFD23AE49F000C8E990 /* UIView+JKIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKIB.m"; sourceTree = "<group>"; };
 		798256181B3A59060033A0C1 /* NSString+JKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKNormalRegex.h"; sourceTree = "<group>"; };
 		798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKNormalRegex.m"; sourceTree = "<group>"; };
 		A202D9601B0F6C4400EAB199 /* NSDate+JKReporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKReporting.h"; sourceTree = "<group>"; };
@@ -2635,6 +2639,8 @@
 				A2958D141B35961600D7AA0F /* UIView+JKDraggable.m */,
 				A232AC141B38EC9F00A149D3 /* UIView+JKRecursion.h */,
 				A232AC151B38EC9F00A149D3 /* UIView+JKRecursion.m */,
+				2591FAFC23AE49F000C8E990 /* UIView+JKIB.h */,
+				2591FAFD23AE49F000C8E990 /* UIView+JKIB.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -3338,6 +3344,7 @@
 				B810251A206A104F0099CDA8 /* NSString+JKHTML.h in Headers */,
 				B8102534206A108A0099CDA8 /* UIFont+JKTTF.h in Headers */,
 				B81025EF206A11650099CDA8 /* UIView+JKNib.h in Headers */,
+				2591FAFE23AE49F000C8E990 /* UIView+JKIB.h in Headers */,
 				B81025D1206A11350099CDA8 /* UILabel+JKAutomaticWriting.h in Headers */,
 				B8102508206A104F0099CDA8 /* NSString+JKPinyin.h in Headers */,
 				B810250A206A104F0099CDA8 /* NSString+JKRemoveEmoji.h in Headers */,
@@ -3445,6 +3452,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -3828,6 +3836,7 @@
 				B810257D206A10C70099CDA8 /* UIBezierPath+JKThroughPointsBezier.m in Sources */,
 				B810265B206A12160099CDA8 /* NSObject+JKRuntime.m in Sources */,
 				B81024C3206A0FDD0099CDA8 /* NSNumber+JKRomanNumerals.m in Sources */,
+				2591FAFF23AE49F000C8E990 /* UIView+JKIB.m in Sources */,
 				B810261C206A11970099CDA8 /* UIViewController+JKRecursiveDescription.m in Sources */,
 				B810261B206A11970099CDA8 /* UIViewController+JKBackButtonTouched.m in Sources */,
 				B8102600206A11720099CDA8 /* UIView+JKFrame.m in Sources */,
